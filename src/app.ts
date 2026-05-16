@@ -23,4 +23,4 @@ export function buildApp(options: FastifyServerOptions = {}) {
 }
 
 // 故意的型別錯誤，用於示範 CI 失敗案例
-const intentionalError: number = "this is a string";
+// const intentionalError: number = "this is a string";
