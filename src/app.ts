@@ -23,4 +23,5 @@ export function buildApp(options: FastifyServerOptions = {}) {
 }
 
 // 故意的型別錯誤，用於示範 CI 失敗案例
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const intentionalError: number = 222;
